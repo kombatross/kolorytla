@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    /*background-image: url("images/bg.jpg");*/
+}
+
+.banner{
+height: 50vh;
+background-image: url("../images/bg.jpg");
+/*background-color: #cccccc;*/
+background-position: center;
+background-size: 100%;
+
+}
+
+.banner__text{
+font-size: 70px;
+color: white;
+font-family: Georgia;
+text-shadow:0 0 30px rgb(36,134,115,0.7);
+margin-top: 0px;
+padding-top: calc(50vh - 40px) ;
+}
+
+.text{
+background: linear-gradient(#27C6A2, #169678);
+font-family: Georgia;
+padding: 100px;
+color: white;
+font-size: 1.2rem;
+line-height: 2rem;
+
+}
